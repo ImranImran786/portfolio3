@@ -21,24 +21,24 @@ export const Navbar = () => {
 
       <nav className="nav-wrapper">
         <div className="nav-content">
-            <img src="" alt="upload" />
+            <a href="#"><img class="logo" src="logo.png" alt="upload" /></a>
 
               <ul>
                 <li>
-                  <a href="https://www.youtube.com/results?search_query=portfolio+react+project+with+source+code" className="menu-item">Home</a>
+                  <a href="" className="menu-item">Home</a>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/results?search_query=portfolio+react+project+with+source+code" className="menu-item">Skills</a>
+                  <a href="#about" className="menu-item">About</a>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/results?search_query=portfolio+react+project+with+source+code" className="menu-item">Work Experience</a>
+                  <a href="#skills" className="menu-item">Skills</a>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/results?search_query=portfolio+react+project+with+source+code" className="menu-item">Contact Me</a>
+                  <a href="#projects" className="menu-item">Projects</a>
                 </li>
 
                 <button className="contact-btn" onClick={() => {}}>
-                  Hire Me
+                <a href="#contact" className="menu-item">Contact Me</a>
                 </button>
 
               </ul>

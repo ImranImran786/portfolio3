@@ -27,7 +27,8 @@ body {
 .section-description { 
 	font-size: 1.2rem; 
 	line-height: 1.6; 
-	color: #555; 
+	/* color: #555;  */
+	color: white;
 } 
 
 .card { 
@@ -127,12 +128,14 @@ body {
 
 .card-title { 
 	font-size: 1.5rem; 
-	color: #333; 
+	/* color: #333;  */
+	color: white;
 } 
 
 .card-text { 
 	font-size: 1.2rem; 
-	color: #555; 
+	/* color: #555;  */
+	color: white;
 } 
 
 
@@ -150,7 +153,8 @@ body {
 #resume p { 
 	font-size: 1.2rem; 
 	line-height: 1.6; 
-	color: #555; 
+	/* color: #555;  */
+	color: white;
 } 
 
 .resume-download-btn { 
@@ -185,7 +189,8 @@ body {
 #contact .section-description { 
 	font-size: 1.2rem; 
 	line-height: 1.6; 
-	color: #555; 
+	/* color: #555;  */
+	color: white;
 } 
 
 .contact-list { 
@@ -206,7 +211,8 @@ body {
 } 
 
 .contact-list a { 
-	color: #333; 
+	/* color: #333;  */
+	color: white;
 	text-decoration: none; 
 } 
 
@@ -262,9 +268,11 @@ body {
 } 
 
 
+
+
 /* Footer Styles */
 .footer { 
-	background-color: #343a40; 
+	background-color: #17a2b8; 
 	color: #fff; 
 	padding: 20px 0; 
 	position: relative; 
@@ -330,7 +338,8 @@ body {
 } 
 
 .breadcrumb-item.active { 
-	color: #343a40; 
+	/* color: #343a40;  */
+	color: white;
 	/* Active breadcrumb item color */
 	font-weight: bold; 
 } 

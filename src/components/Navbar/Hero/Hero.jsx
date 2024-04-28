@@ -16,7 +16,7 @@ const Hero = () => {
     <div className="hero-img">
         <div>
             <div className="tech-icon">
-                <img src="" alt="upl"/>
+                <img src="./sql.png" alt="sql "/>
             </div>
                 <img id='programmer' src="./programmer.png" alt="u"/>
         </div>
@@ -31,12 +31,12 @@ const Hero = () => {
             <div className="tech-icon">
                 <img src="./java.png" alt="tech-icon" />
             </div>
-            {/* <div className="tech-icon">
+            <div className="tech-icon">
                 <img src="./sql.png" alt="tech-icon" />
-            </div> */}
-            {/* <div className="tech-icon">
+            </div>
+            <div className="tech-icon">
                 <img src="./php.png" alt="tech-icon" />
-            </div> */}
+            </div>
         </div>
 
     </div>

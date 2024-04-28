@@ -14,24 +14,29 @@ body {
 
 /* About Section Styles */
 #about { 
-	padding: 20px 0; 
-	/* border-: 2px sold red; */
+	padding: 20px 30px; 
+	border: 3px solid #6852ba;
+	border-radius: 40px;
+	margin-top: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
 } 
 
 .section-title { 
 	font-size: 2.5rem; 
 	color: #17a2b8; 
-	margin-bottom: 20px; 
+	margin-bottom: 20px;
+	margin-left: 40%;
+	margin-right: 10%;
 } 
 
 .section-description { 
 	font-size: 1.2rem; 
-	line-height: 1.6; 
-	/* color: #555;  */
+	line-height: 1.6;
 	color: white;
 } 
 
-.card { 
+/* .card { 
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 	transition: transform 0.3s; 
 } 
@@ -55,7 +60,7 @@ body {
 
 .resume-download-btn:hover { 
 	background-color: #0056b3; 
-} 
+}  */
 
 
 
@@ -74,7 +79,22 @@ body {
 	object-fit: cover; 
 } 
 
+
+
+
+
 /* Skills Component Styles */
+
+
+#skills { 
+	padding: 20px 30px; 
+	border: 3px solid #6852ba;
+	border-radius: 40px;
+	margin-top: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
+} 
+
 .skills-container { 
 	margin-top: 40px; 
 } 
@@ -104,9 +124,21 @@ body {
 	margin-right: 0; 
 } 
 
+
+
+
 /* Projects Section Styles */
 #projects { 
 	padding: 0px 0; 
+} 
+
+#projects { 
+	padding: 20px 30px; 
+	border: 3px solid #6852ba;
+	border-radius: 40px;
+	margin-top: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
 } 
 
 .section-title { 
@@ -139,45 +171,21 @@ body {
 } 
 
 
-/* Resume Section Styles */
-#resume { 
-	padding: 10px 0; 
-} 
-
-#resume h2 { 
-	font-size: 2.5rem; 
-	color: #17a2b8; 
-	margin-bottom: 20px; 
-} 
-
-#resume p { 
-	font-size: 1.2rem; 
-	line-height: 1.6; 
-	/* color: #555;  */
-	color: white;
-} 
-
-.resume-download-btn { 
-	display: inline-block; 
-	padding: 10px 20px; 
-	font-size: 1.2rem; 
-	text-align: center; 
-	text-decoration: none; 
-	background-color: #28a745; 
-	color: #fff; 
-	border-radius: 5px; 
-	transition: background-color 0.3s; 
-} 
-
-.resume-download-btn:hover { 
-	background-color: #218838; 
-} 
-
 
 
 /* Contact Section Styles */
-#contact { 
+/* #contact { 
 	padding: 10px 0; 
+}  */
+
+#contact { 
+	padding: 20px 30px; 
+	border: 3px solid #6852ba;
+	border-radius: 40px;
+	margin-top: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 50px;
 } 
 
 #contact .section-title { 

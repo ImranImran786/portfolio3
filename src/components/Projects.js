@@ -1,66 +1,96 @@
-// Projects.js
-export default function Projects() {
-	return (
+// Projects.js 
+import React from 'react'; 
+import { FontAwesomeIcon } 
+	from '@fortawesome/react-fontawesome'; 
+import { faCode } from '@fortawesome/free-solid-svg-icons'; 
+// import Breadcrumbs from './Breadcrumbs'; 
+import './style.css'; 
+
+const Projects = () => { 
+	const breadcrumbsPaths = 
+		[ 
+			{ title: 'Home', to: '/' }, 
+			{ title: 'Projects', to: '/projects' } 
+		]; 
+
+	return ( 
 		<section id="projects"
-				className="my-20 w-full flex flex-col gap-5 align-center max-w-5xl mx-auto">
-			<h2 className="text-5xl text-emerald-500 font-bold text-center">
-				My Projects
-			</h2>
-			<div className="p-10 bg-emerald-200 flex flex-col justify-center items-center
-							gap-5 lg:flex-row max-w-5xl mx-auto shadow transition 
-							hover:shadow-xl hover:scale-[102%] w-full">
-				<div className="w-80 rounded">
-					<a href=
-"https://www.geeksforgeeks.org/progress-tracker-using-react-and-local-storage/"
-						className="w-full h-full">
-						<img src="programmer.png"
-							alt="Project 1"
-							className="w-full h-full 
-										bg-cover rounded"/>
-					</a>
-				</div>
-				<div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
-					<h2 className="font-bold text-3xl text-center">
-						<a className="hover:underline"
-							href=
-"https://www.geeksforgeeks.org/progress-tracker-using-react-and-local-storage/">
-							DSA Progress Tracker
-						</a>
-					</h2>
-					<p>
-						This is a project built on react which tracks your progess in dsa 
-						and stores that in the local storage.
-					</p>
-				</div>
-			</div>
-			<div className="p-10 bg-emerald-200 flex flex-col justify-center items-center gap-5 
-							lg:flex-row-reverse max-w-5xl mx-auto shadow transition hover:shadow-xl 
-							hover:scale-[102%] w-full">
-				<div className="w-80 rounded">
-					<a href=
-"https://www.geeksforgeeks.org/15-puzzle-game-using-reactjs/"
-					className="w-full h-full">
-						<img src="programmer.png"
-							alt="Project 2"
-							className="w-full h-full bg-cover rounded" />
-					</a>
-				</div>
-				<div className="flex flex-col align-center mx-auto gap-4 justify-center flex-1">
-					<h2 className="font-bold text-3xl text-center">
-						<a className="hover:underline" href=
-"https://www.geeksforgeeks.org/15-puzzle-game-using-reactjs/">
-							15 Puzzle Game
-						</a>
-					</h2>
-					<p>
-						15 puzzle game is basically a tile-based game in which there are 16 tiles
-						out of which 1 tile is left empty and the remaining tiles are filled with
-						numbers from 1 to 15 in random order. The user has to arrange all the tiles 
-						in numerical order with the rule that they can only move the tile that is 
-						a direct neighbor of the empty tile.
-					</p>
-				</div>
-			</div>
-		</section>
-	);
-}
+			className="container text-center"> 
+			{/* <Breadcrumbs paths={breadcrumbsPaths} />  */}
+			<h2 className="section-title"> 
+				<FontAwesomeIcon icon={faCode} 
+					className="mr-2" /> 
+				Projects 
+			</h2> 
+			<div className="row"> 
+				{/* Project 1 */} 
+				<div className="col-md-6"> 
+					<div className="card mb-4"> 
+						<div className="card-body"> 
+							<h5 className="card-title"> 
+								Read For Speed - 
+								Smart India Hackathon 2022 
+							</h5> 
+							<p className="card-text"> 
+								Designed the UI and implemented 
+								CSS styling for the website, 
+								optimizing performance and design across 
+								all pages. 
+							</p> 
+						</div> 
+					</div> 
+				</div> 
+				{/* Project 2 */} 
+				<div className="col-md-6"> 
+					<div className="card mb-4"> 
+						<div className="card-body"> 
+							<h5 className="card-title"> 
+								Training and Placement 
+								Cell Website Official 
+							</h5> 
+							<p className="card-text"> 
+								Designed and developed the official 
+								Placement Website for the university using 
+								HTML, CSS, JavaScript, jQuery, and Bootstrap. 
+							</p> 
+						</div> 
+					</div> 
+				</div> 
+				{/* Project 3 */} 
+				<div className="col-md-6"> 
+					<div className="card mb-4"> 
+						<div className="card-body"> 
+							<h5 className="card-title"> 
+								E-commerce Platform 
+							</h5> 
+							<p className="card-text"> 
+								Built a fully functional e-commerce 
+								platform with features like product listing, 
+								cart management, and user authentication using 
+								React, Node.js, and MongoDB. 
+							</p> 
+						</div> 
+					</div> 
+				</div> 
+				{/* Project 4 */} 
+				<div className="col-md-6"> 
+					<div className="card mb-4"> 
+						<div className="card-body"> 
+							<h5 className="card-title"> 
+								Social Media Dashboard 
+							</h5> 
+							<p className="card-text"> 
+								Developed a social media dashboard 
+								that allows users to view and manage 
+								their social media accounts in one place, 
+								integrating with APIs from major platforms. 
+							</p> 
+						</div> 
+					</div> 
+				</div> 
+			</div> 
+		</section> 
+	); 
+}; 
+
+export default Projects;

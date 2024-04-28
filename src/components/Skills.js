@@ -1,25 +1,73 @@
-// Skills.js
-export default function Skills() {
-	const skills = ["Python", "HTML", "CSS", "Javascript", "React", "NextJs"];
-	return (
+// Skills.js 
+import React from 'react'; 
+import { FontAwesomeIcon } 
+	from '@fortawesome/react-fontawesome'; 
+import { faCode, faLaptopCode } 
+	from '@fortawesome/free-solid-svg-icons'; 
+import { faCogs } 
+	from '@fortawesome/free-solid-svg-icons'; 
+import './style.css'; 
+
+const Skills = () => { 
+	return ( 
 		<section id="skills"
-			className="px-10 w-full my-40 max-w-5xl mx-auto">
-			<h2 className="text-center text-6xl text-emerald-500 font-bold">
-				My Skills...
-			</h2>
-			<div className="mt-10 flex gap-5 justify-center 
-							flex-wrap mx-auto max-w-xl">
-				{skills.map((skill, index) => {
-					return (
-						<div key={index}
-							className="cursor-pointer px-12 py-10 
-										rounded bg-emerald-200 text-lg 
-										flex items-center justify-center 
-										font-bold hover:shadow-xl">
-							{skill}
-						</div>
-					)})}
-			</div>
-		</section>
-	)
-}
+			className="container"
+			style={{ paddingLeft: '0px' }}> 
+			<h2 className="section-title"> 
+				<FontAwesomeIcon icon={faCogs} 
+					className="mr-2" /> 
+				Skills 
+			</h2> 
+			<ul className="skills-list"> 
+				<li> 
+					<FontAwesomeIcon icon={faCode} 
+						className="mr-2" /> 
+					HTML 
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faCode} 
+						className="mr-2" /> 
+					CSS 
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faCode} 
+						className="mr-2" /> 
+					JavaScript 
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faLaptopCode} 
+						className="mr-2" /> 
+					React 
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faLaptopCode} 
+						className="mr-2" /> 
+					Bootstrap 
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faLaptopCode} 
+						className="mr-2" /> 
+					DSA 
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faLaptopCode} 
+						className="mr-2" /> 
+					Node.js 
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faLaptopCode} 
+						className="mr-2" /> 
+					Python 
+				</li> 
+				<li> 
+					<FontAwesomeIcon icon={faLaptopCode} 
+						className="mr-2" /> 
+					Java 
+				</li> 
+				{/* Add more skills as needed */} 
+			</ul> 
+		</section> 
+	); 
+}; 
+
+export default Skills;

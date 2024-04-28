@@ -5,6 +5,7 @@ import "./App.css"
 import { Navbar } from "./components/Navbar/Navbar"
 // import Hero from "./components/Navbar/Hero";
 import Hero from "./components/Navbar/Hero/Hero"
+import WorkExperience from "./components/Navbar/WorkExperience/WorkExperience"
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Navbar/>
       <div className="container">
         <Hero/>
+        <WorkExperience/>
       </div>
     </>
   )

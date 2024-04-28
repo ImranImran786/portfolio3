@@ -1,3 +1,4 @@
+import "./About.css"
 // About.js
 export default function About() {
 	return (

@@ -32,6 +32,26 @@ const About = () => {
 						responsive web applications. 
 					</p> 
 				</div> 
+				
+				<div className="hero-img">
+				<div>
+            		<div className="tech-icon">
+                		<img src="./html.png" alt="tech-icon" />
+            		</div>
+            		<div className="tech-icon">
+                		<img src="./css.png" alt="tech-icon" />
+            		</div>
+            		<div className="tech-icon">
+                		<img src="./java.png" alt="tech-icon" />
+            		</div>
+            		<div className="tech-icon">
+                		<img src="./sql.png" alt="tech-icon" />
+            		</div>
+            		<div className="tech-icon">
+                		<img src="./php.png" alt="tech-icon" />
+            		</div>
+					</div>
+				</div>
 			</div> 
 		</section> 
 	); 

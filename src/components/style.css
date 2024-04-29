@@ -83,6 +83,43 @@ body {
 
 
 
+/* html,css,sql,php,java all images in About section */
+
+
+/* .row .hero-img > div{
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+}
+.row .tech-icon{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6852ba;
+}
+.row .tech-icon img{
+    width: 3rem;
+    height: auto;
+    transition: all 0.3s ease;
+}
+.row .hero-img > div img:hover,
+.tech-icon img:hover{
+    transform: translateY(-0.5rem);
+}
+.row .hero-img > div img:hover,
+.tech-icon img:hover{
+    transform: translateY(-0.5rem);
+}
+
+
+
+
+
+
 /* Skills Component Styles */
 
 
@@ -251,8 +288,6 @@ body {
 	margin-bottom: 8px; 
 	display: inline-block; 
 	margin-right: 10px; 
-	/* padding: 10px;
-	margin: 20px; */
 } 
 
 .skills-list li:hover { 

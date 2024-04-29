@@ -6,7 +6,6 @@ import { Navbar } from "./components/Navbar/Navbar"
 // import Hero from "./components/Navbar/Hero";
 import Hero from "./components/Navbar/Hero/Hero"
 import About from "./components/About";
-import WorkExperience from "./components/Navbar/WorkExperience/WorkExperience";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -19,7 +18,6 @@ const App = () => {
       <div className="container">
         <Hero/>
         <About />
-        <WorkExperience/>
         <Skills />
         <Projects />
 			  <Contact />

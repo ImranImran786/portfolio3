@@ -239,7 +239,7 @@ body {
 
 .skills-list { 
 	list-style: none; 
-	padding: 0; 
+	padding-left: 5px; 
 	margin-top: 15px; 
 } 
 
@@ -251,6 +251,13 @@ body {
 	margin-bottom: 8px; 
 	display: inline-block; 
 	margin-right: 10px; 
+	/* padding: 10px;
+	margin: 20px; */
+} 
+
+.skills-list li:hover { 
+	background-color: black; 
+	border: 2px solid #6852ba;
 } 
 
 .skills-list li:last-child { 

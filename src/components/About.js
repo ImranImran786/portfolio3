@@ -31,6 +31,20 @@ const About = () => {
 						I have successfully designed and developed user-friendly, 
 						responsive web applications. 
 					</p> 
+					<div className="profile-image-container"> 
+
+						<img src="https://media.geeksforgeeks.org/img-practice/Asset1-1641910145.svg"
+							alt="geek pic"
+							className="img-fluid rounded-circle profile-image" /> 
+					</div> 
+					<p className="section-description mt-4"> 
+						I am a skilled Internship Trainee with over 6 months of 
+						hands-on experience in full-stack web development. My 
+						expertise includes using technologies such as Node.js, 
+						Java, JSP, HTML, CSS, and Bootstrap. As a problem solver, 
+						I have successfully designed and developed user-friendly, 
+						responsive web applications. 
+					</p> 
 				</div> 
 			</div> 
 		</section> 

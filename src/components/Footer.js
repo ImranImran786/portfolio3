@@ -12,7 +12,7 @@ return (
 	<div className="container"> 
 		<div className="row"> 
 		<div className="col-md-6"> 
-			<p>© 2023 Geek. All rights reserved.</p> 
+			<p>© 2023 Expert College. All rights reserved.</p> 
 		</div> 
 		<div className="col-md-6 text-md-right"> 
 			<ul className="social-icons list-unstyled"> 

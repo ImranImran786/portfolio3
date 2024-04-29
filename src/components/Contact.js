@@ -28,7 +28,7 @@ const Contact = () => {
 				<li> 
 					<FontAwesomeIcon icon={faEnvelope} 
 						className="contact-icon" /> 
-					sahilalixxxxxx@gmail.com 
+					ExpertCollege@gmail.com 
 				</li> 
 				<li> 
 					{/* <FontAwesomeIcon icon={faLinkedin}  */}
@@ -43,7 +43,7 @@ const Contact = () => {
 				<li> 
 					<FontAwesomeIcon icon={faPhone} 
 						className="contact-icon" /> 
-					6393xxxxx4 
+					03045035027
 				</li> 
 			</ul> 
 		</section> 

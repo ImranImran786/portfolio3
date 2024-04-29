@@ -29,7 +29,7 @@ const Projects = () => {
 						<div className="card-body"> 
 							<h5 className="card-title"> 
 								Read For Speed - 
-								Smart India Hackathon 2022 
+								Smart Hackathon 2022 
 							</h5> 
 							<p className="card-text"> 
 								Designed the UI and implemented 

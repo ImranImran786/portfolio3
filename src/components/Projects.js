@@ -7,11 +7,11 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 import './style.css'; 
 
 const Projects = () => { 
-	const breadcrumbsPaths = 
-		[ 
-			{ title: 'Home', to: '/' }, 
-			{ title: 'Projects', to: '/projects' } 
-		]; 
+	// const breadcrumbsPaths = 
+	// 	[ 
+	// 		{ title: 'Home', to: '/' }, 
+	// 		{ title: 'Projects', to: '/projects' } 
+	// 	]; 
 
 	return ( 
 		<section id="projects"

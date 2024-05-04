@@ -4,21 +4,14 @@ import { FontAwesomeIcon }
 	from '@fortawesome/react-fontawesome'; 
 import { faEnvelope, faPhone } 
 	from '@fortawesome/free-solid-svg-icons'; 
-// import { faLinkedin, faGithub } 
-	// from '@fortawesome/free-brands-svg-icons'; 
-// import Breadcrumbs from './Breadcrumbs'; 
+import { faLinkedin, faGithub } 
+	from '@fortawesome/free-brands-svg-icons'; 
 import './style.css'; 
 
 const Contact = () => { 
-	const breadcrumbsPaths = 
-		[ 
-			{ title: 'Home', to: '/' }, 
-			{ title: 'Contact', to: '/contact' } 
-		]; 
 
 	return ( 
 		<section id="contact" className="container"> 
-			{/* <Breadcrumbs paths={breadcrumbsPaths} />  */}
 			<h2 className="section-title">Contact</h2> 
 			<p className="section-description"> 
 				Feel free to reach out for
@@ -31,13 +24,13 @@ const Contact = () => {
 					ExpertCollege@gmail.com 
 				</li> 
 				<li> 
-					{/* <FontAwesomeIcon icon={faLinkedin}  */}
-						{/* className="contact-icon" />  */}
+					<FontAwesomeIcon icon={faLinkedin} 
+						className="contact-icon" />
 					LinkedIn 
 				</li> 
 				<li> 
-					{/* <FontAwesomeIcon icon={faGithub}  */}
-						{/* className="contact-icon" />  */}
+					<FontAwesomeIcon icon={faGithub} 
+						className="contact-icon" />
 					GitHub 
 				</li> 
 				<li> 

@@ -17,8 +17,6 @@ export const Navbar = () => {
 
     {/* <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} /> */}
 
-
-
       <nav className="nav-wrapper">
         <div className="nav-content">
             <a href="#"><img class="logo" src="logo.png" alt="upload" /></a>

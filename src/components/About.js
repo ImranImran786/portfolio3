@@ -19,7 +19,7 @@ const About = () => {
 					</h2> 
 					<div className="profile-image-container"> 
 
-						<img src="https://media.geeksforgeeks.org/img-practice/Asset1-1641910145.svg"
+						<img src="./about.png"
 							alt="geek pic"
 							className="img-fluid rounded-circle profile-image" /> 
 					</div> 

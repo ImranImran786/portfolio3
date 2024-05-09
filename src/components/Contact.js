@@ -21,7 +21,8 @@ const Contact = () => {
 				<li> 
 					<FontAwesomeIcon icon={faEnvelope} 
 						className="contact-icon" /> 
-					ExpertCollege@gmail.com 
+					<a href='https://www.youtube.com/channel/UCBBTIqn2nTWQqvX0TmNLpIA'>ExpertCollege@gmail.com </a>
+					
 				</li> 
 				<li> 
 					<FontAwesomeIcon icon={faLinkedin} 
@@ -31,7 +32,8 @@ const Contact = () => {
 				<li> 
 					<FontAwesomeIcon icon={faGithub} 
 						className="contact-icon" />
-					GitHub 
+						<a href='https://github.com/'>GitHub</a>
+					 
 				</li> 
 				<li> 
 					<FontAwesomeIcon icon={faPhone} 

@@ -64,7 +64,6 @@ const Skills = () => {
 						className="mr-2" /> 
 					Java 
 				</li> 
-				{/* Add more skills as needed */} 
 			</ul> 
 		</section> 
 	); 
